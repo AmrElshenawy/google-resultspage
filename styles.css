@@ -1,0 +1,249 @@
+body strong
+{
+    font-weight: bold;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gray 
+{
+    color: rgb(112, 117, 122);
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#header
+{
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 123px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    min-width: 920px;
+}
+
+.googlelogo
+{
+    float: left;
+    max-width: 92px;
+    height: auto;
+    margin: 28px 0 0 20px;
+}
+
+.search-bar:hover
+{
+    border-color: rgba(223,225,229, 0);
+    -webkit-box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    -moz-box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+.search-bar
+{
+    display: inline-block;
+    height: 44px;
+    border-radius: 23px;
+    border: 1px solid #dfe1e5;
+    margin: 20px 0 0 35px;
+    min-width: 641px; /* Minimize content jumping */
+    max-width: 642px; /* Minimize content jumping */
+}
+
+.search-bar button
+{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    color: rgb(83, 83, 255);
+}
+
+.search-bar button .last 
+{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.search-bar .fa-search
+{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.search-bar button:focus
+{
+    outline: none;
+    border: none;
+}
+
+.search-bar .input-field 
+{
+    width: 550px;
+    height: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.search-bar .input-field:focus
+{
+    outline: none;
+    border: none;
+}
+
+.icon
+{
+    width: auto;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.search-bar .fa-microphone
+{
+    margin-left: 5px;
+}
+
+.tooltip 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text 
+{
+    visibility: hidden;
+    width: 90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 10px;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -45px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.tooltip .tooltip-text::after 
+{
+    content: " ";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltip-text 
+{
+    visibility: visible;
+}
+
+.account-tools
+{
+    float: right;
+    margin: 28px 28px 0 0 ;
+    font-size: 14px;
+
+}
+
+.account-tools li
+{
+    float: left;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.account-tools i
+{
+    margin-top: 6px;
+}
+
+.fa-th
+{
+    color: gray;
+}
+
+.avatar
+{
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.nav-bar a:hover
+{
+    color: #1A73E8;
+}
+
+.nav-options
+{
+    display: inline-block;
+    height: 58px;
+    margin-left: 166px;
+}
+
+.nav-options li
+{
+    float: left;
+    height: 46%;
+    margin: 27px 25px 0 0;
+    font-size: 13px;
+}
+
+.nav-options a 
+{
+    color: #5f6368;
+    font-size: 13px;
+}
+
+.nav-options .selected 
+{
+
+    border-bottom: 3px solid #1A73E8;
+}
+
+.nav-options .selected a 
+{
+    color: #1A73E8;
+}
+
+.nav-settings 
+{
+    display: inline-block;
+    height: 58px;
+    margin-left: 45px;
+}
+
+.nav-settings li
+{
+    float: left;
+    height: 100%;
+    margin: 27px 25px 0 0;
+    font-size: 13px;
+}
+
+.nav-settings a 
+{
+    color: #5f6368;
+}
+

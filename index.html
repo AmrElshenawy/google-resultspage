@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <meta charset="UTF-8">
-        <title></title>
+        <title>The Odin Project</title>
     </head>
     <body>
         <div id="header">
-            <div class="account-tools">
-                <ul>
-                    <li><a href="#"><i class="fas fa-th" title="Google Apps"></i></a></li>
-                    <li><a href="#"><i class="fas fa-user-tie" alt="User Picture" title="Your Account Info"></i></a></li>
-                </ul>
+            <ul class="account-tools">
+                <li><a href="#"><i class="fas fa-th" title="Google Apps"></i></a></li>
+                <li><a href=""><img src="images/avatar.png" alt="User Avatar" title="Google Account &#010 Fake User &#010 fakeuser@gmail.com" class="avatar"></a></li>
+            </ul>
 
-                <img alt="Google Logo" class="googlelogo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92">
+            <img alt="Google Logo" class="googlelogo" src="images/google-logo.png">
 
-                <form>
+            <form>
+                <div class="search-bar">
                     <input type="text" class="input-field" value="The Odin Project">
-                    <button type="button" title="Search by Voice">
-                        <i class="fas fa-microphone"></i>
+                    <button type="button">
+                        <i class="fas fa-microphone icons tooltip">
+                            <span class="tooltip-text">Search By Voice</span>
+                        </i>
                     </button>
                     <button>
-                        <i class="fas fa-search"></i>
+                        <i class="fas fa-search icon last"></i>
                     </button>
-                </form>
-
-                <div class="nav-options">
-                    <ul>
-                        <li class="selected"><a href="#"><i class="fas fa-search"></i></a></li>
-                        <li><a href="#"><i class="fas fa-image"></i></a></li>
-                        <li><a rel="#"><i class="fas fa-newspaper"></i></a></li>
-                        <li><a href="#"><i class="fas fa-video"></i></a></li>
-                        <li><a href="#"><i class="fas fa-map"></i></a></li>
-                        <li><a href="#"><i class="fas fa-ellipsis-v"></i></a></li>
-                    </ul>
                 </div>
+            </form>
 
-                <div class="nav-settings">
-                    <ul>
-                        <li>Settings</li>
-                        <li>Tools</li>
-                    </ul>
-                </div>
+            <div class="nav-bar">
+                <ul class="nav-options">
+                    <li class="selected"><a href="#"><i class="fas fa-search"></i>&nbsp&nbspAll</a></li>
+                    <li><a href="#"><i class="fas fa-image"></i>&nbsp&nbspImages</a></li>
+                    <li><a href="#"><i class="fas fa-newspaper"></i>&nbsp&nbspNews</a></li>
+                    <li><a href="#"><i class="fas fa-video"></i>&nbsp&nbspVideos</a></li>
+                    <li><a href="#"><i class="fas fa-map"></i>&nbsp&nbspMaps</a></li>
+                    <li><a href="#"><i class="fas fa-ellipsis-v"></i>&nbsp&nbspMore</a></li>
+                </ul>
+
+                <ul class="nav-settings">
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Tools</a></li>
+                </ul>
             </div>
         </div>
 
