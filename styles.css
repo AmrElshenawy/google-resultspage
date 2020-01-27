@@ -247,3 +247,304 @@ a
     color: #5f6368;
 }
 
+#page-content
+{
+    display: flex;
+    margin: 13px 0 0 166px;
+    /* flex-direction: row; */
+}
+
+#page-content p
+{
+    font-size: 14px;
+}
+
+.result
+{
+    line-height: 1.5em;
+    margin: 20px 0;
+}
+
+.result a[href^="http"] p
+{
+    padding-left: 26px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.result a[href*="theodinproject.com"] p
+{
+    background-image: url(https://www.google.com/s2/favicons?domain=theodinproject.com);
+}
+
+.result a[href*="twitter.com"] p
+{
+    background-image: url(https://www.google.com/s2/favicons?domain=twitter.com);
+
+}
+
+.result a[href*="reddit.com"] p
+{
+    background-image: url(https://www.google.com/s2/favicons?domain=reddit.com);
+    
+}
+
+.result a[href*="switchup.org"] p
+{
+    background-image: url(https://www.google.com/s2/favicons?domain=switchup.org);
+    
+}
+
+.result a[href*="github.com"] p
+{
+    background-image: url(https://www.google.com/s2/favicons?domain=github.com);
+    
+}
+
+.result a[href*="medium.com"] p
+{
+    background-image: url(https://www.google.com/s2/favicons?domain=medium.com);
+    
+}
+
+.result a[href*="linkedin.com"] p
+{
+    background-image: url(https://www.google.com/s2/favicons?domain=linkedin.com);
+    
+}
+
+.result a
+{
+    color: rgb(26, 13, 171);
+}
+
+.result a:visited
+{
+    color: #609;
+}
+
+.result p 
+{
+    color: #3C4043;
+}
+
+.rating-stars
+{
+    color: #f97d00;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.dropdown
+{
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.result a:hover h3
+{
+    text-decoration: underline;
+}
+
+h3
+{
+    font-size: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.description
+{
+    max-width: 580px;
+    margin-left: 1px;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.result table
+{
+    width: 580px;
+    margin: 10px 0 0 0;
+}
+
+.result td
+{
+    width: 210px;
+    padding: 5px 10px;
+}
+
+.result td a:hover
+{
+    text-decoration: underline;
+}
+
+.result td p
+{
+    line-height: 1.5em;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.more-results
+{
+    margin-left: 31px;
+}
+
+.related-searches h3
+{
+    color: #222;
+    margin-top: 30px;
+}
+
+.related-searches table
+{
+    margin: 25px 0;
+}
+
+.related-searches td
+{
+    width: 247px;
+}
+
+.related-searches li
+{
+    margin-bottom: 10px;
+}
+
+.related-searches a:hover
+{
+    text-decoration: underline;
+}
+
+.nav-g 
+{
+    width: 29px;
+    height: 10px;
+    background-image: url(../images/nav.webp);
+    background-repeat: no-repeat;
+    background-position-x: -24px;
+}
+
+.nav-o-selected 
+{
+    width: 21px;
+    height: 5px;
+    background-image: url(../images/nav.webp);
+    background-repeat: no-repeat;
+    background-position-x: -53px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.nav-o 
+{
+    width: 21px;
+    height: 5px;
+    background-image: url(../images/nav.webp);
+    background-repeat: no-repeat;
+    background-position-x: -74px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.nav-next
+{
+    width: 82px;
+    height: 5px;
+    background-image: url(../images/nav.webp);
+    background-repeat: no-repeat;
+    background-position-x: -96px;
+    text-align: right;
+    padding-top: 40px;
+}
+
+.knowledge-panel
+{
+    width: 454px;
+    min-width: 454px;
+    border: 1px solid rgba(34, 34, 34, 0.15);
+    border-radius: 8px;
+    margin: 35px 0 0 74px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+}
+
+.knowledge-panel .shareicon
+{
+    font-size: 20px;
+    color: #70757a;
+}
+
+.seperator
+{
+    flex-basis: 100%;
+    height: 0px;
+    border-bottom: 1px solid  rgb(235, 235, 235);
+}
+
+.break
+{
+    flex-basis: 100%;
+    height: 0px;
+}
+
+.knowledge-header
+{
+    display: flex;
+    align-items: center;
+    padding: 30px 15px 30px 15px;
+}
+
+.company
+{
+    width: 241px;
+    line-height: 1.3em;
+}
+
+.company-name
+{
+    font-size: 19px;
+}
+
+.knowledge-header img 
+{
+    height: 92px;
+    width: 92px;
+    margin-left: 50px;
+}
+
+.sitelink a
+{
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    color: #1a0dab;
+    margin: 10px 0 10px 15px;
+}
+
+.sitelink .fa-globe
+{
+    font-size: 20px;
+    color: #70757a;
+}
+
+.sitelink a:visited
+{
+    color: #609;
+}
+
+.sitelink a:hover
+{
+    text-decoration: underline;
+}
