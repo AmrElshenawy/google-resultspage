@@ -449,7 +449,7 @@ h3
 {
     width: 29px;
     height: 10px;
-    background-image: url(../images/nav.webp);
+    background-image: url(images/nav.webp);
     background-repeat: no-repeat;
     background-position-x: -24px;
 }
@@ -458,7 +458,7 @@ h3
 {
     width: 21px;
     height: 5px;
-    background-image: url(../images/nav.webp);
+    background-image: url(images/nav.webp);
     background-repeat: no-repeat;
     background-position-x: -53px;
     text-align: center;
@@ -469,7 +469,7 @@ h3
 {
     width: 21px;
     height: 5px;
-    background-image: url(../images/nav.webp);
+    background-image: url(images/nav.webp);
     background-repeat: no-repeat;
     background-position-x: -74px;
     text-align: center;
@@ -480,7 +480,7 @@ h3
 {
     width: 82px;
     height: 5px;
-    background-image: url(../images/nav.webp);
+    background-image: url(images/nav.webp);
     background-repeat: no-repeat;
     background-position-x: -96px;
     text-align: right;
