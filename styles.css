@@ -656,52 +656,52 @@ h3
 
 .profile[href*="twitter.com"] 
 { 
-    background-image: url(../images/twitter-logo.png); 
+    background-image: url(images/twitter-logo.png); 
 }
 
 .profile[href*="linkedin.com"] 
 { 
-    background-image: url(../images/linkedin-logo.png); 
+    background-image: url(images/linkedin-logo.png); 
 }
 
 .profile[href*="youtube.com"] 
 { 
-    background-image: url(../images/youtube-logo.png); 
+    background-image: url(images/youtube-logo.png); 
 }
 
 .profile[href*="instagram.com"] 
 { 
-    background-image: url(../images/instagram-logo.png); 
+    background-image: url(images/instagram-logo.png); 
 }
 
 .profile[href*="facebook"] 
 { 
-    background-image: url(../images/facebook-logo.png); 
+    background-image: url(images/facebook-logo.png); 
 }
 
 .fcc 
 {
-    background-image: url(../images/freecodecamp-logo.png); 
+    background-image: url(images/freecodecamp-logo.png); 
 }
 
 .cc 
 {
-    background-image: url(../images/codecadamey-logo.png); 
+    background-image: url(images/codecadamey-logo.png); 
 }
 
 .gh 
 {
-    background-image: url(../images/github-logo.png); 
+    background-image: url(images/github-logo.png); 
 }
 
 .edx 
 {
-    background-image: url(../images/edx-logo.png); 
+    background-image: url(images/edx-logo.png); 
 }
 
 .crs 
 {
-    background-image: url(../images/coursera-logo.png); 
+    background-image: url(images/coursera-logo.png); 
 }
 
 #footer-nav
