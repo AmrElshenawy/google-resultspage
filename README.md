@@ -19,8 +19,8 @@ Things I learned so far in this project:
 
     3) Incorporating '<i>' Icons from Font Awesome
 
-    4) Learned and implented Flexbox
+    4) Learned and implemented Flexbox
 
-    5) Using Google's Tools to import favicons
+    5) Utilizing Google's Tools to import favicons
 
     6) CSS Specificity
