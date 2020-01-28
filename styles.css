@@ -19,6 +19,11 @@ a
     font-size: 14px;
 }
 
+.underline-hover
+{
+    margin-top: -5px;
+}
+
 #header
 {
     top: 0;
@@ -49,7 +54,7 @@ a
 .search-bar
 {
     display: inline-block;
-    height: 44px;
+    height: 49px;
     border-radius: 23px;
     border: 1px solid #dfe1e5;
     margin: 20px 0 0 35px;
@@ -251,7 +256,6 @@ a
 {
     display: flex;
     margin: 13px 0 0 166px;
-    /* flex-direction: row; */
 }
 
 #page-content p
@@ -377,7 +381,7 @@ h3
 .result td
 {
     width: 210px;
-    padding: 5px 10px;
+    padding: 5px 30px;
 }
 
 .result td a:hover
@@ -422,6 +426,21 @@ h3
 }
 
 .related-searches a:hover
+{
+    text-decoration: underline;
+}
+
+.results-nav
+{
+    margin: 0 0 30px 140px;
+}
+
+.results-nav a
+{
+    color: #4285f4;
+}
+
+.results-nav a:hover
 {
     text-decoration: underline;
 }
@@ -547,4 +566,175 @@ h3
 .sitelink a:hover
 {
     text-decoration: underline;
+}
+
+.url 
+{
+    margin-left: 23px;
+}
+
+.external-links
+{
+    padding: 2px 15px 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.external-links p
+{
+    line-height: 2em;
+}
+
+.external-links h3
+{
+    margin: 23px 0px 13px 0px;
+    flex-grow: 2;
+}
+
+.external-links a
+{
+    color: rgb(26, 13, 171);
+}
+
+.external-links a:hover
+{
+    text-decoration: underline;
+}
+
+.external-links a:visited
+{
+    color: rgb(26, 13, 171);
+}
+
+.profile
+{
+    flex-grow: 1;
+    height: 71px;
+    min-width: 32px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32px;
+    background-position-y: 0px;
+    padding-top: 39px;
+}
+
+.relevant
+{
+    flex-grow: 1;
+    min-width: 72px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 72px;
+    padding-top: 100px;
+    margin-top: -12px;
+}
+
+.external-links .also-search
+{
+    margin-top: 10px;
+}
+
+.disclaimer-feedback
+{
+    display: flex;
+    align-items: center;
+    margin: -4px 0px 0px 5px;
+}
+
+.disclaimer-feedback a
+{
+    font-size: 12px;
+}
+
+.disclaimer 
+{
+    min-width: 391px;
+}
+
+.profile[href*="twitter.com"] 
+{ 
+    background-image: url(../images/twitter-logo.png); 
+}
+
+.profile[href*="linkedin.com"] 
+{ 
+    background-image: url(../images/linkedin-logo.png); 
+}
+
+.profile[href*="youtube.com"] 
+{ 
+    background-image: url(../images/youtube-logo.png); 
+}
+
+.profile[href*="instagram.com"] 
+{ 
+    background-image: url(../images/instagram-logo.png); 
+}
+
+.profile[href*="facebook"] 
+{ 
+    background-image: url(../images/facebook-logo.png); 
+}
+
+.fcc 
+{
+    background-image: url(../images/freecodecamp-logo.png); 
+}
+
+.cc 
+{
+    background-image: url(../images/codecadamey-logo.png); 
+}
+
+.gh 
+{
+    background-image: url(../images/github-logo.png); 
+}
+
+.edx 
+{
+    background-image: url(../images/edx-logo.png); 
+}
+
+.crs 
+{
+    background-image: url(../images/coursera-logo.png); 
+}
+
+#footer-nav
+{
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    min-width: 920px;
+    height: 40px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+}
+
+#footer-nav-left
+{
+    float: left;
+    margin: 13px 25px 0px 166px;
+}
+
+#footer-nav-left li
+{
+    float: left;
+}
+
+#footer-nav-left a
+{
+    margin: 0 27px 0 0;
+    color: #5f6368;
+}
+
+#footer-nav-left a:hover
+{
+    color: #333333;
 }
