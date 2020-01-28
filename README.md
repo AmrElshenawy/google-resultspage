@@ -1,3 +1,6 @@
+*** This Project is now complete and has been deployed on Github Pages [deployment page](https://amrelshenawy.github.io/google-resultspage/)
+
+
 Jan 22nd 2020
 The Odin Project - Web Development 101 - The Front End - 4
 Project: HTML/CSS
@@ -10,5 +13,13 @@ The link to the project can be found at: From The Odin Project's [curriculum](ht
 
 Things I learned so far in this project:
     1) True differences between Normalize and Reset for CSS.
+
     2) Utilizing Chrome Dev Tools to pinpoint exactly where an issue is originating from.
-    3) Incorporating <i> Icons from Font Awesome
+
+    3) Incorporating '<i>' Icons from Font Awesome
+
+    4) Learned and implented Flexbox
+
+    5) Using Google's Tools to import favicons
+
+    6) CSS Specificity
